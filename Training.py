@@ -12,14 +12,14 @@ import torch.nn.functional as F
 
 class TrainingImages(Dataset):
     def __init__(self, transform):
-        with open('dataset/training.txt') as f:
+        with open('training.txt') as f:
             self.data_list = f.readlines()
         self.data_num = len(self.data_list)
         self.transform = transform
         self.scale = 3
 
     def __getitem__(self, item):
-        filename = 'dataset/training_hr_images/' + self.data_list[item][:-1]
+        filename = 'training_hr_images/' + self.data_list[item][:-1]
         img_hr = Image.open(filename)
         img_hr = self.transform(img_hr)
         h, w = list(img_hr.shape[-2:])
