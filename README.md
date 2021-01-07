@@ -41,5 +41,6 @@ python Testing.py
 ## Reference
 https://github.com/saeed-anwar/DRLN  
 https://ieeexplore.ieee.org/abstract/document/9185010  
+https://arxiv.org/abs/1904.07523  
 
 ###### tags: `Image super-resolution` `Deep learning` `NCTU CS` `DRLN`
