@@ -24,7 +24,7 @@ https://drive.google.com/drive/u/0/folders/1H-sIY7zj42Fex1ZjxxSC3PV1pK4Mij6x
 * Numpy 1.19.2
 * Tqdm 4.51.0
  
-You need to create a dictory names 'checkpoints' to save chekpoint.
+You need to create a dictory names 'checkpoints' to save chekpoint.  
 And a dictory names 'output' to save images.
   
 ## Usage
